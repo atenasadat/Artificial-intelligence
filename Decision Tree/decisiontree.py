@@ -122,7 +122,7 @@ def discretization(all_data):
 
             elif float(x) >= n+d/3 and float(x) < n+ 2*d/3:
                 index = all_data[all_data[att]== x].index.values
-                print(type(all_data.loc[index[0]].at[att]))
+                # print(type(all_data.loc[index[0]].at[att]))
 
                 all_data.loc[index[0]].at[att]  = 'Meduim'
 
